@@ -1,3 +1,11 @@
 node_modules/
+dist/
+.DS_Store
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+.env.*
+!.env.example
+evidence/live/runs/

@@ -1,0 +1,61 @@
+{
+  "status": "VERIFY_LIVE_PASS",
+  "mode": "live",
+  "amount_uba": "10000000",
+  "runs": [
+    {
+      "commit": "c665bab4c82d0d0595879b687d103adcc76a1a73",
+      "tree": "46f5c671617e0f13469fe654ace8f682863adaf6",
+      "block_number": "32945674",
+      "block_hash": "0xfd1eae47e1452755a6df32a77ee133ce30d168e0a6429aab2f20b2b9be1145ab",
+      "registry": "0xaD67FE66660Fb8dFE9d6b1b4240d8650e30F6019",
+      "asset_manager": "0xc1Ca88b937d0b528842F95d5731ffB586f4fbDFA",
+      "fasset": "0x0b6A3645c240605887a5532109323A3E12273dc7",
+      "symbol": "FTestXRP",
+      "direct_mint_delayed": false,
+      "settings_sha256": "217250ae5ee1ed0883f2612415ec632acbe6d3f7e91ab4bf32db61d0304f5579",
+      "evidence_sha256": "f2a7b873e6ce9baef3a7d6ef4a9d822414cfff0f0802f474a864b1c076941254",
+      "package_lock_sha256": "3e9aabb3336f123d871d5a1f59c1eeaa84392cc191770ef23488f2b1ce38fd24",
+      "decision": "PASS",
+      "verified_live_pass": true,
+      "audit_id": "FLARE-F7C8F944588F365D",
+      "decision_sha256": "f7c8f944588f365dfa28479641025e90690790587755b1c14268cfc1dc45cd4c",
+      "human_gate": "HUMAN_CONFIRMATION_REQUIRED",
+      "execution_eligible": false,
+      "gross_payment_uba": "10200000",
+      "memo_data_hex": "4642505266410018000000000000000000000000000000000000000000000002"
+    },
+    {
+      "commit": "c665bab4c82d0d0595879b687d103adcc76a1a73",
+      "tree": "46f5c671617e0f13469fe654ace8f682863adaf6",
+      "block_number": "32945674",
+      "block_hash": "0xfd1eae47e1452755a6df32a77ee133ce30d168e0a6429aab2f20b2b9be1145ab",
+      "registry": "0xaD67FE66660Fb8dFE9d6b1b4240d8650e30F6019",
+      "asset_manager": "0xc1Ca88b937d0b528842F95d5731ffB586f4fbDFA",
+      "fasset": "0x0b6A3645c240605887a5532109323A3E12273dc7",
+      "symbol": "FTestXRP",
+      "direct_mint_delayed": false,
+      "settings_sha256": "217250ae5ee1ed0883f2612415ec632acbe6d3f7e91ab4bf32db61d0304f5579",
+      "evidence_sha256": "1428b8134f86b9b8ffdbc9eb07905b0e134f907ecb48f02eb00975fdc576da4a",
+      "package_lock_sha256": "3e9aabb3336f123d871d5a1f59c1eeaa84392cc191770ef23488f2b1ce38fd24",
+      "decision": "PASS",
+      "verified_live_pass": true,
+      "audit_id": "FLARE-E702DAB1AF174779",
+      "decision_sha256": "e702dab1af174779b237a9ae86279a09994d1ab3c2ab9919754648f7b86d6b4f",
+      "human_gate": "HUMAN_CONFIRMATION_REQUIRED",
+      "execution_eligible": false,
+      "gross_payment_uba": "10200000",
+      "memo_data_hex": "4642505266410018000000000000000000000000000000000000000000000002"
+    }
+  ],
+  "safety": {
+    "read_only": true,
+    "wallet_used": false,
+    "private_key_required": false,
+    "signing_performed": false,
+    "chain_write_performed": false,
+    "transaction_broadcast": false,
+    "fixture_fallback": false,
+    "mock_fallback": false
+  }
+}

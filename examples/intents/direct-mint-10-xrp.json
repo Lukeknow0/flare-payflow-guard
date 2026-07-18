@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "operation": "direct_mint",
+  "amount": "10.000000",
+  "spend_limit": "10.200000",
+  "expected_chain_id": 114,
+  "asset": {
+    "symbol": "FTestXRP",
+    "address": "0x0b6A3645c240605887a5532109323A3E12273dc7",
+    "decimals": 6
+  },
+  "recipient": "0x0000000000000000000000000000000000000002"
+}

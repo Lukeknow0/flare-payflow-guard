@@ -1,0 +1,310 @@
+{
+  "adapter_state": {
+    "anchor": {
+      "blockHash": "0xfbc34cc81e7bc92d28db7ccba4e754addb4ea1c598bba787ee26f4dcb687f384",
+      "blockNumber": "32943632",
+      "blockTimestamp": "1784258885",
+      "hashRechecked": true
+    },
+    "assetManager": {
+      "address": "0xc1Ca88b937d0b528842F95d5731ffB586f4fbDFA",
+      "codeBytes": 217,
+      "codeSha256": "c07ba3ac922af1dac469835c06010645fd42c7fd0a182ec6741982c079d914aa",
+      "settings": {
+        "__announcedUnderlyingConfirmationMinSeconds": "0",
+        "__buybackCollateralFactorBIPS": "0",
+        "__cancelCollateralReservationAfterSeconds": "0",
+        "__ccbTimeSeconds": "0",
+        "__minUnderlyingBackingBIPS": 0,
+        "__redemptionDefaultFactorPoolBIPS": 0,
+        "__rejectOrCancelCollateralReservationReturnFactorBIPS": 0,
+        "__rejectRedemptionRequestWindowSeconds": "0",
+        "__rejectedRedemptionDefaultFactorPoolBIPS": 0,
+        "__rejectedRedemptionDefaultFactorVaultCollateralBIPS": 0,
+        "__requireEOAAddressProof": false,
+        "__takeOverRedemptionRequestWindowSeconds": "0",
+        "__tokenInvalidationTimeMinSeconds": "86400",
+        "__whitelist": "0x0000000000000000000000000000000000000000",
+        "agentExitAvailableTimelockSeconds": "60",
+        "agentFeeChangeTimelockSeconds": "120",
+        "agentMintingCRChangeTimelockSeconds": "120",
+        "agentOwnerRegistry": "0xAF21eE9C49030e2dE9e8c2Ab7618082cc3d70b42",
+        "agentTimelockedOperationWindowSeconds": "3600",
+        "agentVaultFactory": "0x7f3a0266666531107058e7a5519c94C046245017",
+        "assetDecimals": 6,
+        "assetManagerController": "0x1C772F700308aF4c13897cc7b9c41EFfB82c50C0",
+        "assetMintingDecimals": 6,
+        "assetMintingGranularityUBA": "1",
+        "assetUnitUBA": "1000000",
+        "attestationWindowSeconds": "86400",
+        "averageBlockTimeMS": 2000,
+        "burnAddress": "0x000000000000000000000000000000000000dEaD",
+        "chainId": "0x7465737458525000000000000000000000000000000000000000000000000000",
+        "collateralPoolFactory": "0x53b90F1444469899FCD3920Ff2a9224C7676b2a6",
+        "collateralPoolTokenFactory": "0xD89BD854fE2dA9CBEe89058C18a9b01aA4e88d5d",
+        "collateralPoolTokenTimelockSeconds": 60,
+        "collateralReservationFeeBIPS": 10,
+        "confirmationByOthersAfterSeconds": "7200",
+        "confirmationByOthersRewardUSD5": "10000000",
+        "diamondCutMinTimelockSeconds": "3600",
+        "emergencyPauseDurationResetAfterSeconds": "604800",
+        "fAsset": "0x0b6A3645c240605887a5532109323A3E12273dc7",
+        "fdcVerification": "0x906507E0B64bcD494Db73bd0459d1C667e14B933",
+        "liquidationCollateralFactorBIPS": [
+          "10400",
+          "10800",
+          "11200"
+        ],
+        "liquidationFactorVaultCollateralBIPS": [
+          "10000",
+          "10000",
+          "10000"
+        ],
+        "liquidationStepSeconds": "180",
+        "lotSizeAMG": "10000000",
+        "maxEmergencyPauseDurationSeconds": "86400",
+        "maxRedeemedTickets": 20,
+        "maxTrustedPriceAgeSeconds": "600",
+        "minUpdateRepeatTimeSeconds": "60",
+        "mintingCapAMG": "0",
+        "mintingPoolHoldingsRequiredBIPS": 5000,
+        "paymentChallengeRewardBIPS": 0,
+        "paymentChallengeRewardUSD5": "30000000",
+        "poolExitCRChangeTimelockSeconds": "120",
+        "poolTokenSuffix": "TXRP",
+        "priceReader": "0x94E33f519E256149752711245EAB2E1abb8c34A4",
+        "redemptionDefaultFactorVaultCollateralBIPS": 10500,
+        "redemptionFeeBIPS": 50,
+        "underlyingBlocksForPayment": "500",
+        "underlyingSecondsForPayment": "900",
+        "vaultCollateralBuyForFlareFactorBIPS": 10000,
+        "withdrawalWaitMinSeconds": "60"
+      },
+      "settingsSha256": "217250ae5ee1ed0883f2612415ec632acbe6d3f7e91ab4bf32db61d0304f5579"
+    },
+    "directMinting": {
+      "assetMintingGranularityUBA": "1",
+      "daily": {
+        "effectiveStart": "1784246400",
+        "limitUBA": "500000000000",
+        "nextResetAt": "1784332800",
+        "raw": {
+          "mintedInCurrentWindowAMG": "132600000",
+          "windowStartTimestamp": "1784246400"
+        },
+        "remainingUBA": "499867400000",
+        "usedUBA": "132600000",
+        "windowSizeSeconds": "86400",
+        "windowsElapsed": "0"
+      },
+      "executorFeeUBA": "100000",
+      "feeBIPS": "25",
+      "hourly": {
+        "effectiveStart": "1784257200",
+        "limitUBA": "100000000000",
+        "nextResetAt": "1784260800",
+        "raw": {
+          "mintedInCurrentWindowAMG": "112200000",
+          "windowStartTimestamp": "1784253600"
+        },
+        "remainingUBA": "100000000000",
+        "usedUBA": "0",
+        "windowSizeSeconds": "3600",
+        "windowsElapsed": "1"
+      },
+      "immediateHeadroomUBA": "100000000000",
+      "largeDelaySeconds": "3600",
+      "largeThresholdUBA": "100000000000",
+      "limiterDisabled": false,
+      "minimumFeeUBA": "100000",
+      "paymentAddress": "rDhpmiPq4BVBDWMVdSrmkgt8thKyRzGV1p",
+      "preflight": {
+        "dailyAt": "1784258885",
+        "delayReasons": [],
+        "delayed": false,
+        "executionAllowedAt": "1784258885",
+        "hourlyAt": "1784258885",
+        "largeAt": "1784258885"
+      },
+      "proposedAmountUBA": "10000000",
+      "unblockUntilTimestamp": "0"
+    },
+    "fAsset": {
+      "address": "0x0b6A3645c240605887a5532109323A3E12273dc7",
+      "codeBytes": 177,
+      "codeSha256": "e9ebb67b8a19f4777701073afd2365077080e43e59614b44e7b817befdec612e",
+      "decimals": 6,
+      "name": "FXRP",
+      "symbol": "FTestXRP"
+    },
+    "mode": "live",
+    "network": {
+      "expectedChainId": 114,
+      "observedChainId": 114
+    },
+    "readOnly": true,
+    "registry": {
+      "address": "0xaD67FE66660Fb8dFE9d6b1b4240d8650e30F6019",
+      "codeBytes": 3197,
+      "codeSha256": "5a749ed313f4e271c3290e7fe6ef092cd46990005ea9bfab834ccf5a30700a6e",
+      "lookupName": "AssetManagerFXRP"
+    }
+  },
+  "anchor": {
+    "block_hash": "0xfbc34cc81e7bc92d28db7ccba4e754addb4ea1c598bba787ee26f4dcb687f384",
+    "block_number": "32943632",
+    "block_timestamp": "1784258885",
+    "hash_rechecked": true
+  },
+  "artifact_type": "flare_fassets_evidence",
+  "asset": {
+    "address": "0x0b6A3645c240605887a5532109323A3E12273dc7",
+    "code_bytes": 177,
+    "code_sha256": "e9ebb67b8a19f4777701073afd2365077080e43e59614b44e7b817befdec612e",
+    "decimals": 6,
+    "name": "FXRP",
+    "symbol": "FTestXRP"
+  },
+  "asset_manager": {
+    "address": "0xc1Ca88b937d0b528842F95d5731ffB586f4fbDFA",
+    "code_bytes": 217,
+    "code_sha256": "c07ba3ac922af1dac469835c06010645fd42c7fd0a182ec6741982c079d914aa"
+  },
+  "captured_at_utc": "2026-07-17T03:28:16.041Z",
+  "fassets": {
+    "direct_mint": {
+      "daily_limit_uba": "500000000000",
+      "daily_remaining_uba": "499867400000",
+      "delay_reasons": [],
+      "delay_seconds": "0",
+      "delayed": false,
+      "execution_allowed_at": "1784258885",
+      "executor_fee_uba": "100000",
+      "fee_bips": "25",
+      "hourly_limit_uba": "100000000000",
+      "hourly_remaining_uba": "100000000000",
+      "large_delay_seconds": "3600",
+      "large_threshold_uba": "100000000000",
+      "limiter_disabled": false,
+      "minimum_fee_uba": "100000",
+      "payment_address": "rDhpmiPq4BVBDWMVdSrmkgt8thKyRzGV1p",
+      "proposed_amount_uba": "10000000"
+    },
+    "settings": {
+      "__announcedUnderlyingConfirmationMinSeconds": "0",
+      "__buybackCollateralFactorBIPS": "0",
+      "__cancelCollateralReservationAfterSeconds": "0",
+      "__ccbTimeSeconds": "0",
+      "__minUnderlyingBackingBIPS": 0,
+      "__redemptionDefaultFactorPoolBIPS": 0,
+      "__rejectOrCancelCollateralReservationReturnFactorBIPS": 0,
+      "__rejectRedemptionRequestWindowSeconds": "0",
+      "__rejectedRedemptionDefaultFactorPoolBIPS": 0,
+      "__rejectedRedemptionDefaultFactorVaultCollateralBIPS": 0,
+      "__requireEOAAddressProof": false,
+      "__takeOverRedemptionRequestWindowSeconds": "0",
+      "__tokenInvalidationTimeMinSeconds": "86400",
+      "__whitelist": "0x0000000000000000000000000000000000000000",
+      "agentExitAvailableTimelockSeconds": "60",
+      "agentFeeChangeTimelockSeconds": "120",
+      "agentMintingCRChangeTimelockSeconds": "120",
+      "agentOwnerRegistry": "0xAF21eE9C49030e2dE9e8c2Ab7618082cc3d70b42",
+      "agentTimelockedOperationWindowSeconds": "3600",
+      "agentVaultFactory": "0x7f3a0266666531107058e7a5519c94C046245017",
+      "assetDecimals": 6,
+      "assetManagerController": "0x1C772F700308aF4c13897cc7b9c41EFfB82c50C0",
+      "assetMintingDecimals": 6,
+      "assetMintingGranularityUBA": "1",
+      "assetUnitUBA": "1000000",
+      "attestationWindowSeconds": "86400",
+      "averageBlockTimeMS": 2000,
+      "burnAddress": "0x000000000000000000000000000000000000dEaD",
+      "chainId": "0x7465737458525000000000000000000000000000000000000000000000000000",
+      "collateralPoolFactory": "0x53b90F1444469899FCD3920Ff2a9224C7676b2a6",
+      "collateralPoolTokenFactory": "0xD89BD854fE2dA9CBEe89058C18a9b01aA4e88d5d",
+      "collateralPoolTokenTimelockSeconds": 60,
+      "collateralReservationFeeBIPS": 10,
+      "confirmationByOthersAfterSeconds": "7200",
+      "confirmationByOthersRewardUSD5": "10000000",
+      "diamondCutMinTimelockSeconds": "3600",
+      "emergencyPauseDurationResetAfterSeconds": "604800",
+      "fAsset": "0x0b6A3645c240605887a5532109323A3E12273dc7",
+      "fdcVerification": "0x906507E0B64bcD494Db73bd0459d1C667e14B933",
+      "liquidationCollateralFactorBIPS": [
+        "10400",
+        "10800",
+        "11200"
+      ],
+      "liquidationFactorVaultCollateralBIPS": [
+        "10000",
+        "10000",
+        "10000"
+      ],
+      "liquidationStepSeconds": "180",
+      "lotSizeAMG": "10000000",
+      "maxEmergencyPauseDurationSeconds": "86400",
+      "maxRedeemedTickets": 20,
+      "maxTrustedPriceAgeSeconds": "600",
+      "minUpdateRepeatTimeSeconds": "60",
+      "mintingCapAMG": "0",
+      "mintingPoolHoldingsRequiredBIPS": 5000,
+      "paymentChallengeRewardBIPS": 0,
+      "paymentChallengeRewardUSD5": "30000000",
+      "poolExitCRChangeTimelockSeconds": "120",
+      "poolTokenSuffix": "TXRP",
+      "priceReader": "0x94E33f519E256149752711245EAB2E1abb8c34A4",
+      "redemptionDefaultFactorVaultCollateralBIPS": 10500,
+      "redemptionFeeBIPS": 50,
+      "underlyingBlocksForPayment": "500",
+      "underlyingSecondsForPayment": "900",
+      "vaultCollateralBuyForFlareFactorBIPS": 10000,
+      "withdrawalWaitMinSeconds": "60"
+    },
+    "settings_sha256": "217250ae5ee1ed0883f2612415ec632acbe6d3f7e91ab4bf32db61d0304f5579"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "canonical_payload_sha256": "12258b73dce67daf013a90903ccf862c690fd9dd32663e255f3b613ad3e9192a",
+    "canonicalization": "sorted-keys-bigint-decimal-v1",
+    "payload_scope": "artifact excluding integrity"
+  },
+  "mode": "live",
+  "network": {
+    "expected_chain_id": 114,
+    "observed_chain_id": 114
+  },
+  "observed_at_utc": "2026-07-17T03:28:16.041Z",
+  "provenance": {
+    "commit": "642623c27c89ee15a6fa2c678bd02d95965afaa9",
+    "dependencies": {
+      "@flarenetwork/flare-wagmi-periphery-package": "3.1.0",
+      "viem": "2.48.4"
+    },
+    "dirty": false,
+    "node": "v22.22.3",
+    "tree": "4338d3815b3def906c332c87fce310840d0daa80"
+  },
+  "registry": {
+    "address": "0xaD67FE66660Fb8dFE9d6b1b4240d8650e30F6019",
+    "code_bytes": 3197,
+    "code_sha256": "5a749ed313f4e271c3290e7fe6ef092cd46990005ea9bfab834ccf5a30700a6e",
+    "lookup_name": "AssetManagerFXRP",
+    "resolved_address": "0xc1Ca88b937d0b528842F95d5731ffB586f4fbDFA"
+  },
+  "request": {
+    "block_selection": "official-coston2-latest-minus-2",
+    "proposed_amount_uba": "10000000",
+    "selected_block_number": "32943632"
+  },
+  "safety": {
+    "chain_write_performed": false,
+    "fixture_fallback": false,
+    "mock_fallback": false,
+    "private_key_required": false,
+    "read_only": true,
+    "signing_performed": false,
+    "transaction_broadcast": false,
+    "wallet_used": false
+  },
+  "schema_version": "1.0.0"
+}

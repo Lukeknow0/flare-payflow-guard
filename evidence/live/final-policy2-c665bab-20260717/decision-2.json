@@ -1,0 +1,81 @@
+{
+  "artifact_type": "flare_guard_decision",
+  "audit_id": "FLARE-E702DAB1AF174779",
+  "canonical_digest": "e702dab1af174779b237a9ae86279a09994d1ab3c2ab9919754648f7b86d6b4f",
+  "capability_origin": {
+    "baseline_reused": [
+      "secret rejection pattern",
+      "Decimal amount pattern",
+      "PASS/REVIEW/BLOCK priority",
+      "human confirmation gate"
+    ],
+    "flare_new": [
+      "Coston2 chain and Contract Registry identity",
+      "anchored FAssets settings, Core Vault, fee and limiter evidence",
+      "official 32-byte direct-mint memo and gross payment quote",
+      "fixed live freshness and evidence-bound audit digest",
+      "DirectMintingExecuted versus delayed receipt semantics"
+    ]
+  },
+  "decision": "PASS",
+  "evaluation": {
+    "evaluated_at_utc": "2026-07-17T05:04:25Z",
+    "historical_replay": false,
+    "maximum_evidence_age_seconds": 900
+  },
+  "evidence_anchor": {
+    "block_hash": "0xfd1eae47e1452755a6df32a77ee133ce30d168e0a6429aab2f20b2b9be1145ab",
+    "block_number": "32945674",
+    "block_timestamp": "1784264643",
+    "canonical_evidence_sha256": "1428b8134f86b9b8ffdbc9eb07905b0e134f907ecb48f02eb00975fdc576da4a",
+    "capture_commit": "c665bab4c82d0d0595879b687d103adcc76a1a73",
+    "capture_tree": "46f5c671617e0f13469fe654ace8f682863adaf6",
+    "settings_sha256": "217250ae5ee1ed0883f2612415ec632acbe6d3f7e91ab4bf32db61d0304f5579"
+  },
+  "execution_eligible": false,
+  "flare_evidence_sha256": "1428b8134f86b9b8ffdbc9eb07905b0e134f907ecb48f02eb00975fdc576da4a",
+  "human_gate": {
+    "allowed_next_action": "human_wallet_review_only",
+    "automatic_signing": false,
+    "private_key_custody": false,
+    "status": "HUMAN_CONFIRMATION_REQUIRED",
+    "transaction_submission": false
+  },
+  "normalized_intent": {
+    "amount": "10.000000",
+    "amount_semantics": "net_fxrp_to_mint",
+    "amount_uba": "10000000",
+    "asset": {
+      "address": "0x0b6A3645c240605887a5532109323A3E12273dc7",
+      "decimals": 6,
+      "symbol": "FTestXRP"
+    },
+    "chain_id": 114,
+    "operation": "direct_mint",
+    "recipient": "0x0000000000000000000000000000000000000002",
+    "spend_limit": "10.200000",
+    "spend_limit_semantics": "maximum_gross_xrpl_payment",
+    "spend_limit_uba": "10200000",
+    "transaction_hash": null,
+    "underlying_sender_address": null,
+    "underlying_transaction_id": null
+  },
+  "payment_plan": {
+    "asset_decimals": 6,
+    "destination_source": "AssetManagerFXRP.directMintingPaymentAddress",
+    "destination_xrpl_address": "rDhpmiPq4BVBDWMVdSrmkgt8thKyRzGV1p",
+    "executor_fee_uba": "100000",
+    "gross_payment_uba": "10200000",
+    "memo_bytes": 32,
+    "memo_data_hex": "4642505266410018000000000000000000000000000000000000000000000002",
+    "memo_format": "DIRECT_MINTING_32_BYTE",
+    "minting_fee_uba": "100000",
+    "net_mint_uba": "10000000",
+    "preferred_executor": null,
+    "recipient_evm_address": "0x0000000000000000000000000000000000000002"
+  },
+  "policy_version": "2.0.0",
+  "reasons": [],
+  "receipt": null,
+  "schema_version": "1.1.0"
+}

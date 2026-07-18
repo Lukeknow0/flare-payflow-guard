@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0.0",
+  "fixture_id": "offline-replay-pass",
+  "mode": "fixture",
+  "description": "Offline replay manifest for a previously captured read-only live artifact. This manifest is a fixture and performs no network call.",
+  "intent_file": "examples/intents/direct-mint-10-xrp.json",
+  "evidence_file": "evidence/live/runs/preflight-live-2.json",
+  "expected_decision": "PASS"
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0.0",
+  "fixture_id": "wrong-chain-block",
+  "mode": "fixture",
+  "description": "Synthetic offline fixture proving that a wrong chain is blocked. It is not live evidence.",
+  "expected_decision": "BLOCK",
+  "request": {
+    "intent": {
+      "operation": "direct_mint",
+      "amount": "10.000000",
+      "spend_limit": "10.200000",
+      "expected_chain_id": 1,
+      "asset": {
+        "symbol": "FTestXRP",
+        "address": "0x0b6A3645c240605887a5532109323A3E12273dc7",
+        "decimals": 6
+      },
+      "recipient": "0x0000000000000000000000000000000000000002"
+    },
+    "evidence": {
+      "schema_version": "1.0.0",
+      "artifact_type": "flare_fassets_evidence_fixture",
+      "mode": "fixture",
+      "observed_at_utc": "2026-07-17T03:00:00Z",
+      "network": {
+        "expected_chain_id": 1,
+        "observed_chain_id": 1
+      },
+      "anchor": {
+        "block_number": "32942996",
+        "block_hash": "0x2222222222222222222222222222222222222222222222222222222222222222",
+        "block_timestamp": "1784257186",
+        "hash_rechecked": true
+      },
+      "registry": {
+        "address": "0xaD67FE66660Fb8dFE9d6b1b4240d8650e30F6019",
+        "lookup_name": "AssetManagerFXRP",
+        "resolved_address": "0xc1Ca88b937d0b528842F95d5731ffB586f4fbDFA",
+        "code_bytes": 3197,
+        "code_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "asset_manager": {
+        "address": "0xc1Ca88b937d0b528842F95d5731ffB586f4fbDFA",
+        "code_bytes": 217,
+        "code_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "asset": {
+        "address": "0x0b6A3645c240605887a5532109323A3E12273dc7",
+        "name": "FXRP",
+        "symbol": "FTestXRP",
+        "decimals": 6,
+        "code_bytes": 177,
+        "code_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "fassets": {
+        "settings_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+        "settings": {
+          "fAsset": "0x0b6A3645c240605887a5532109323A3E12273dc7",
+          "assetDecimals": 6
+        },
+        "direct_mint": {
+          "payment_address": "rFixtureCoreVaultAddress",
+          "proposed_amount_uba": "10000000",
+          "minimum_fee_uba": "100000",
+          "executor_fee_uba": "100000",
+          "fee_bips": "25",
+          "hourly_limit_uba": "100000000000",
+          "hourly_remaining_uba": "100000000000",
+          "daily_limit_uba": "500000000000",
+          "daily_remaining_uba": "500000000000",
+          "large_threshold_uba": "100000000000",
+          "large_delay_seconds": "3600",
+          "execution_allowed_at": "1784257186",
+          "delay_seconds": "0",
+          "delayed": false,
+          "delay_reasons": [],
+          "limiter_disabled": false
+        }
+      },
+      "safety": {
+        "read_only": true,
+        "wallet_used": false,
+        "signing_performed": false,
+        "transaction_broadcast": false,
+        "fixture_fallback": false,
+        "mock_fallback": false
+      }
+    }
+  }
+}
