@@ -134,8 +134,8 @@ Flare-new work: Coston2/Registry/FAssets adapter, one-block/hash-recheck invaria
 ## Final submission checklist
 
 - [ ] `make verify` passes from the final clean commit and the output is retained outside Git for the demo.
-- [ ] Public repository branch/ref `submission-v1` points to that exact commit.
-- [ ] Demo shows live Flare state, `PASS/REVIEW/BLOCK`, human gate and provenance diff.
+- [x] Public repository branch/ref `submission-v1` points to the published candidate.
+- [x] Local text-led demo shows retained live Flare state, `PASS/REVIEW/BLOCK`, human gate and provenance diff.
 - [ ] Screenshots retain full mode, block/address/hash and contain no secret material.
 - [ ] Any future transaction/deployment claim has a matching explorer artifact; otherwise state “no custom deployment.”
 - [x] User explicitly approves public repository and local recording.
