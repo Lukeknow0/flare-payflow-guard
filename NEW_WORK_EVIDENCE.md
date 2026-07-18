@@ -172,7 +172,7 @@ This repository does **not** currently prove or claim:
 - an XRPL settlement inferred from an EVM receipt;
 - wallet connection, private-key custody, signature or transaction broadcast;
 - test-token movement, transaction hash or custom contract deployment;
-- hosted browser application, publicly hosted video, post or DoraHacks submission;
+- hosted browser application, publicly hosted video, post or DoraHacks final submission;
 - event-specific eligibility, KYC path, payment asset/network or payout SLA.
 
 Those items remain separate future work or external-action gates. None is needed to rerun the current read-only Flare core and deterministic decision evidence.
