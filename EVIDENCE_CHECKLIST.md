@@ -100,7 +100,8 @@ If authorized later, capture all of the following:
 - [x] Hosted browser application is not required by the official event wording
   or actual form; no hosted app is claimed.
 - [x] User approves local recording.
-- [ ] User approves video upload/provider.
+- [x] User approves YouTube Unlisted upload/provider; video URL
+  `https://youtu.be/_hGEM3U8jU8` is live and entered in DoraHacks.
 - [ ] User approves any community/X/Telegram post.
 - [x] DoraHacks hacker registration completed.
 - [x] Non-final BUIDL form preparation is authorized; `Submit for Review` was

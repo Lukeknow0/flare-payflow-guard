@@ -1,7 +1,7 @@
 # Flare Summer Signal submission copy
 
-> Final English copy for DoraHacks. The only intentionally unresolved public
-> field is the hosted video URL. Do not check the agreements or click
+> Final English copy for DoraHacks. The public repository and video URL are
+> resolved. Do not check the agreements or click
 > `Submit for Review` without the user's explicit confirmation.
 
 ## DoraHacks profile fields
@@ -14,7 +14,7 @@
 - **AI agent:** No
 - **Repository:** https://github.com/Lukeknow0/flare-payflow-guard
 - **Submission ref:** https://github.com/Lukeknow0/flare-payflow-guard/tree/submission-final
-- **Demo video:** `[PASTE PUBLIC VIDEO URL AFTER USER APPROVES UPLOAD]`
+- **Demo video:** https://youtu.be/_hGEM3U8jU8
 - **Project website:** leave blank; no hosted browser application is claimed.
 - **Social link:** https://github.com/Lukeknow0
 - **Team:** Solo builder
@@ -199,8 +199,10 @@ repository plus a public demo video satisfies the documented artifact shape.
 - [x] The 6,437-character Details copy above is entered in the DoraHacks form;
   SHA-256
   `cd254c8b735b2c7a50696e6275fdcb1546c10773e0262b8735271b98baf295a3`.
-- [x] Public repository and three-minute local recording exist.
-- [ ] Upload the video only after user approval and paste its public URL.
+- [x] Public repository and three-minute recording exist.
+- [x] The user-approved Unlisted YouTube upload is available at
+  `https://youtu.be/_hGEM3U8jU8`; YouTube's unauthenticated oEmbed endpoint
+  resolves it, and the URL is entered in the DoraHacks form.
 - [ ] User reviews and accepts the DoraHacks Terms of Use and Participant
   Agreement.
 - [ ] User explicitly authorizes the final `Submit for Review` click.
