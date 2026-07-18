@@ -69,7 +69,7 @@
   fully bound `DirectMintingExecuted` -> EXECUTED.
 - [ ] `git diff --stat origin/pre-flare-import..origin/submission-v1` and adapted-baseline mapping.
 
-Every screenshot must preserve the full command, mode label, relevant address/hash and result. Do not crop the distinction between fresh live output, saved-live replay and fixture regression. Record each screenshot file SHA-256 in the final manifest.
+Every screenshot must preserve the full command, mode label, relevant address/hash and result. Do not crop the distinction between fresh live output, saved-live replay and fixture regression. Final PNG files and SHA-256 values are stored outside Git in the handoff directory so generating them does not dirty or change the verified commit. The repository checklist records what each image must prove; the local `SCREENSHOT_MANIFEST.md` records the exact final files and hashes.
 
 A saved JSON self-digest proves consistency, not source authenticity. The live
 claim must show the same-process `make verify` or retained `verify-live.mjs`
@@ -95,8 +95,13 @@ If authorized later, capture all of the following:
 ## Public artifact gate
 
 - [x] User approves a public GitHub repository and exact commit/tag.
-- [ ] User approves any hosted demo/provider.
+- [x] Hosted browser application is not required by the official event wording
+  or actual form; no hosted app is claimed.
 - [x] User approves local recording.
 - [ ] User approves video upload/provider.
 - [ ] User approves any community/X/Telegram post.
-- [ ] User approves DoraHacks registration and final submission.
+- [x] DoraHacks hacker registration completed.
+- [x] Non-final BUIDL form preparation is authorized; `Submit for Review` was
+  not clicked.
+- [ ] User reviews/accepts the DoraHacks agreements and authorizes final
+  submission.
