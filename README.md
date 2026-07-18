@@ -77,7 +77,7 @@ The receipt checker consumes facts supplied by its caller; it does not fetch RPC
 - [`evidence/live/final-policy2-c665bab-20260717/verification-summary.json`](./evidence/live/final-policy2-c665bab-20260717/verification-summary.json): retained two-capture policy-2 `VERIFY_LIVE_PASS` at block `32945674`.
 - [`ARCHITECTURE.md`](./ARCHITECTURE.md): schemas, trust boundaries, policy and Flare-removal tests.
 - [`NEW_WORK_EVIDENCE.md`](./NEW_WORK_EVIDENCE.md): Pharos baseline attribution and post-boundary commit map.
-- [`PUBLIC_HISTORY.md`](./PUBLIC_HISTORY.md): public-history rewrite disclosure and old-to-public evidence commit map.
+- [`PUBLIC_HISTORY.md`](./PUBLIC_HISTORY.md): publication-boundary and pre-public evidence-hash disclosure.
 - [`DEMO_SCRIPT.md`](./DEMO_SCRIPT.md): three-minute reviewer walkthrough.
 - [`STATUS.md`](./STATUS.md): current completion and approval gates.
 
