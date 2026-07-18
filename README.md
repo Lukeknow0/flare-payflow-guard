@@ -4,7 +4,7 @@
   <img src="assets/logo.png" alt="Flare PayFlow Guard logo" width="240">
 </p>
 
-[Public repository](https://github.com/Lukeknow0/flare-payflow-guard) · Submission candidate ref: `submission-v1` · Final immutable tag: `submission-final` (created after the last verification)
+[Public repository](https://github.com/Lukeknow0/flare-payflow-guard) · [3-minute demo](https://youtu.be/_hGEM3U8jU8) · Submission candidate ref: `submission-v1` · Final immutable tag: `submission-final` (created after the last verification)
 
 Flare PayFlow Guard is a local, read-only FXRP/XRPL direct-mint preflight and receipt guard for **Flare Summer Signal, Bounty 1 — Interoperable Asset Products**.
 
@@ -93,10 +93,11 @@ The public pre-Flare boundary is branch/ref `pre-flare-import`; the candidate is
 - Project logo: [`assets/logo.png`](./assets/logo.png), 480 x 480 PNG.
 - Submission copy and actual form-field audit:
   [`SUBMISSION_DRAFT.md`](./SUBMISSION_DRAFT.md).
-- A 170.021-second, 1920 x 1080 H.264/AAC demo has been generated locally.
+- A 170.021-second, 1920 x 1080 H.264/AAC demo is available as an
+  [unlisted YouTube video](https://youtu.be/_hGEM3U8jU8).
   Its SHA-256 is
   `4b7860dcfbfbfec535d5f026fae70513c8a2fd101e2f0abadc60d27a9987d6b8`;
-  it is not stored in Git and has not been uploaded.
+  the MP4 is not stored in Git.
 
 The official event wording accepts a “Demo link, video, or working app link,”
 and the actual DoraHacks form labels the project website optional. This
@@ -107,4 +108,4 @@ no hosted browser application is claimed.
 
 Implemented: read-only Coston2/FAssets capture, fail-closed policy `2.0.0`, canonical evidence/decision digests, gross-payment and memo construction, caller-supplied receipt verification, 133 tests, and offline/live verification harnesses.
 
-Not implemented or claimed: FDC AddressValidity/Payment retrieval, wallet connection, test-token transaction, custom deployment, automatic signing, a hosted browser application, video upload, or DoraHacks final submission. The repository is the runnable public artifact; the local three-minute recording is prepared separately and is not stored in Git. Eligibility/KYC and payout details are outside this codebase's technical claims.
+Not implemented or claimed: FDC AddressValidity/Payment retrieval, wallet connection, test-token transaction, custom deployment, automatic signing, a hosted browser application, or DoraHacks final submission. The repository is the runnable public artifact; the three-minute recording is hosted separately and is not stored in Git. Eligibility/KYC and payout details are outside this codebase's technical claims.

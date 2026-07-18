@@ -2,7 +2,7 @@
 
 Updated: `2026-07-18` (UTC+8)
 
-Current state: **SUBMISSION READY / DORAHACKS FORM PREPARED / VIDEO URL PENDING**
+Current state: **SUBMISSION READY / VIDEO URL ENTERED / AGREEMENTS + FINAL SUBMIT PENDING**
 
 ## Verified project state
 
@@ -18,7 +18,9 @@ Current state: **SUBMISSION READY / DORAHACKS FORM PREPARED / VIDEO URL PENDING*
   `Flare-PayFlow-Guard-3min-demo.mp4`, 170.021 seconds, 1920 x 1080,
   H.264 + AAC, SHA-256
   `4b7860dcfbfbfec535d5f026fae70513c8a2fd101e2f0abadc60d27a9987d6b8`.
-  It is local and has not been uploaded.
+  It is published as an unlisted YouTube video at
+  https://youtu.be/_hGEM3U8jU8 and is accessible through YouTube's unauthenticated
+  oEmbed endpoint.
 - No wallet, private key, test token, signing, broadcast, custom deployment, or
   transaction was used.
 
@@ -62,7 +64,8 @@ or deployment is claimed.
 - Final English Details copy: entered from `SUBMISSION_DRAFT.md`; 6,437
   characters, SHA-256
   `cd254c8b735b2c7a50696e6275fdcb1546c10773e0262b8735271b98baf295a3`.
-- Demo video URL: pending user-approved upload.
+- Demo video URL: `https://youtu.be/_hGEM3U8jU8`, uploaded as Unlisted and
+  entered in the DoraHacks Profile step.
 - Agreements: not accepted by the agent.
 - `Submit for Review`: not clicked.
 
@@ -73,10 +76,10 @@ or deployment is claimed.
   the local handoff directory outside Git.
 - The 170.021-second video was checked against the final facts and Logo; no
   factual mismatch requires regeneration.
+- The unlisted YouTube URL was independently resolved through YouTube's
+  unauthenticated oEmbed endpoint and saved in the DoraHacks draft.
 
 ## Remaining manual gates
 
-1. User approves a video host/upload, then the public URL is pasted into the
-   form.
-2. User personally reviews/accepts the DoraHacks agreements.
-3. User explicitly authorizes the final `Submit for Review` click.
+1. User personally reviews/accepts the DoraHacks agreements.
+2. User explicitly authorizes the final `Submit for Review` click.
