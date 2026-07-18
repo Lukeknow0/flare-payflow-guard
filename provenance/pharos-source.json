@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0.0",
+  "recorded_at": "2026-07-17T02:46:24Z",
+  "source": {
+    "repository": "https://github.com/Lukeknow0/pharos-payflow-agent.git",
+    "local_path": "<redacted-local-pharos-source>",
+    "head": "5af5c651bb60240cfa2c4183e258e438ed2caba0",
+    "head_branch": "main",
+    "worktree_clean": false,
+    "tracked_diff_sha256": "d36a31e2cd6f75cb5ded3aedf876719237bb5bcecba624d4995bf4700ae55545",
+    "porcelain_status_sha256": "a1b630a962e3801006400971d80448d7c14dfcb37788ac19e7cdaf7958844d22"
+  },
+  "classification_rule": {
+    "HEAD_COMMITTED": "Present in source HEAD. Reused behavior is baseline, not Flare new work.",
+    "PRE_FLARE_LOCAL_UNCOMMITTED": "Present in the dirty source worktree before Flare development. Reused behavior is baseline, not Flare new work.",
+    "FLARE_NEW": "Created after the pre-flare-import tag in this repository. Only this class may count as hackathon new work."
+  },
+  "candidates": [
+    {
+      "source_path": "scripts/payflow_guard.py",
+      "origin_state": "HEAD_COMMITTED_AND_MODIFIED_PRE_FLARE",
+      "source_git_blob": "574a11d3aba30fbfe3629eb01da72223e907e205",
+      "source_worktree_sha256": "dc6739e20a6d11baa35184fc722eec82b77baa850e3a7fe81d36e1e67f046021",
+      "candidate_symbols": ["canonical_key", "find_secret_material", "parse_decimal", "add_reason", "score"],
+      "count_as_flare_new": false,
+      "imported_path": null,
+      "imported_sha256": null
+    },
+    {
+      "source_path": "scripts/pharos_common.py",
+      "origin_state": "PRE_FLARE_LOCAL_UNCOMMITTED",
+      "source_git_blob": null,
+      "source_worktree_sha256": "bfb7c1e0e04f8876476bf07d0527e716723b7990a1cd9ef4a3dac1009eca9255",
+      "candidate_symbols": ["RpcError", "validate_address", "validate_tx_hash", "hex_to_int", "redact_url", "rpc_call"],
+      "count_as_flare_new": false,
+      "imported_path": null,
+      "imported_sha256": null
+    },
+    {
+      "source_path": "scripts/rpc_probe.py",
+      "origin_state": "HEAD_COMMITTED_AND_MODIFIED_PRE_FLARE",
+      "source_git_blob": "e69108e374581decd5d8b16395ae55505b25efe1",
+      "source_worktree_sha256": "84ea46e2e3efabdb69796b417dc657aff035affd0402575ac1ebf403f1b35656",
+      "candidate_symbols": ["amount_to_wei", "amount_to_units", "add_check"],
+      "count_as_flare_new": false,
+      "imported_path": null,
+      "imported_sha256": null
+    },
+    {
+      "source_path": "scripts/tx_receipt_summary.py",
+      "origin_state": "HEAD_COMMITTED_AND_MODIFIED_PRE_FLARE",
+      "source_git_blob": "f4cd723867f404e922c6fddeed9c7aa7c099ed6f",
+      "source_worktree_sha256": "b177625e5974df3b6f52b6e5fa9b122a45e058bc42cce3e105c918850a197b97",
+      "candidate_symbols": ["summarize_receipt", "fetch_and_summarize"],
+      "count_as_flare_new": false,
+      "imported_path": null,
+      "imported_sha256": null
+    },
+    {
+      "source_path": "tests/test_payflow_agent.py",
+      "origin_state": "PRE_FLARE_LOCAL_UNCOMMITTED",
+      "source_git_blob": null,
+      "source_worktree_sha256": "0e6bc81da4a2fca68f2c6b5c0983acbd6eebeb40eebe2348230df9c7adf860a1",
+      "candidate_symbols": [],
+      "count_as_flare_new": false,
+      "usage": "reference-only; all Flare tests will be newly written"
+    }
+  ],
+  "excluded_globs": [
+    ".DS_Store",
+    "**/__pycache__/**",
+    "**/*.pyc",
+    "dist/**",
+    "growth/**",
+    "assets/*.html",
+    "**/*avatar*.png",
+    "**/*sample-work*.png",
+    "ANVITA_PUBLISHING.md"
+  ]
+}
