@@ -1,5 +1,9 @@
 # Flare PayFlow Guard
 
+<p align="center">
+  <img src="assets/logo.png" alt="Flare PayFlow Guard logo" width="240">
+</p>
+
 [Public repository](https://github.com/Lukeknow0/flare-payflow-guard) · Submission candidate ref: `submission-v1`
 
 Flare PayFlow Guard is a local, read-only FXRP/XRPL direct-mint preflight and receipt guard for **Flare Summer Signal, Bounty 1 — Interoperable Asset Products**.
