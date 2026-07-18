@@ -2,7 +2,7 @@
 
 Updated: `2026-07-18` (UTC+8)
 
-Current state: **SUBMISSION CANDIDATE / DORAHACKS FORM PREPARED / VIDEO URL PENDING**
+Current state: **SUBMISSION READY / DORAHACKS FORM PREPARED / VIDEO URL PENDING**
 
 ## Verified project state
 
@@ -12,8 +12,7 @@ Current state: **SUBMISSION CANDIDATE / DORAHACKS FORM PREPARED / VIDEO URL PEND
   `PASS/REVIEW/BLOCK` -> human-only confirmation gate.
 - Tests: 32 Node + 101 Python = **133 total**.
 - Public repository: https://github.com/Lukeknow0/flare-payflow-guard
-- Candidate ref: `submission-v1`; final immutable tag will be
-  `submission-final` after the last verification/push.
+- Candidate ref: `submission-v1`; final immutable tag: `submission-final`.
 - Logo: 480 x 480 PNG, synchronized to the repository and demo.
 - Demo recording:
   `Flare-PayFlow-Guard-3min-demo.mp4`, 170.021 seconds, 1920 x 1080,
@@ -67,13 +66,17 @@ or deployment is claimed.
 - Agreements: not accepted by the agent.
 - `Submit for Review`: not clicked.
 
-## Remaining gates
+## Completed submission packaging
 
-1. Freeze and verify the final public commit/tag.
-2. Generate the final verification/evidence screenshots and SHA-256 manifest.
-3. Confirm that the existing video still matches the final repository and
-   evidence claims; regenerate only if a factual mismatch exists.
-4. User approves a video host/upload, then the public URL is pasted into the
+- The final public candidate/tag is frozen and independently reproducible.
+- Final verification/evidence screenshots and their SHA-256 manifest exist in
+  the local handoff directory outside Git.
+- The 170.021-second video was checked against the final facts and Logo; no
+  factual mismatch requires regeneration.
+
+## Remaining manual gates
+
+1. User approves a video host/upload, then the public URL is pasted into the
    form.
-5. User personally reviews/accepts the DoraHacks agreements and explicitly
-   authorizes the final submission click.
+2. User personally reviews/accepts the DoraHacks agreements.
+3. User explicitly authorizes the final `Submit for Review` click.
