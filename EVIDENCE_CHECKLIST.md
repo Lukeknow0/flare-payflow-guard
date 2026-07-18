@@ -58,16 +58,18 @@
 
 ## Required screenshots before submission
 
-- [ ] Final clean commit plus `make verify` result `VERIFY_PASS`.
-- [ ] `make verify-live` summary with both fresh blocks/hashes, Registry/AssetManager/FAsset, evidence digests, two `PASS` results and safety flags.
-- [ ] Historical replay showing `PASS`, `FLARE-DEB2AA04A4EBB912`,
+- [x] Final clean candidate ref/tag plus `make verify` result `VERIFY_PASS`;
+  exact commit, output hashes, and the fresh block/hash are recorded in the
+  local submission handoff outside Git.
+- [x] `make verify-live` summary with both fresh blocks/hashes, Registry/AssetManager/FAsset, evidence digests, two `PASS` results and safety flags.
+- [x] Historical replay showing `PASS`, `FLARE-DEB2AA04A4EBB912`,
   `execution_eligible=false` and `HUMAN_CONFIRMATION_REQUIRED`.
-- [ ] `demo-review` showing `fixture_mode=fixture`, `DIRECT_MINT_DELAY` and business exit `10`.
-- [ ] `demo-block` showing `fixture_mode=fixture`, `CHAIN_MISMATCH` and business exit `20`.
-- [ ] Test summary showing 32 Node tests plus 101 Python tests (133 total).
-- [ ] Receipt frame showing empty success -> REVIEW, delayed -> REVIEW, and
+- [x] `demo-review` showing `fixture_mode=fixture`, `DIRECT_MINT_DELAY` and business exit `10`.
+- [x] `demo-block` showing `fixture_mode=fixture`, `CHAIN_MISMATCH` and business exit `20`.
+- [x] Test summary showing 32 Node tests plus 101 Python tests (133 total).
+- [x] Receipt frame showing empty success -> REVIEW, delayed -> REVIEW, and
   fully bound `DirectMintingExecuted` -> EXECUTED.
-- [ ] `git diff --stat origin/pre-flare-import..origin/submission-v1` and adapted-baseline mapping.
+- [x] `git diff --stat origin/pre-flare-import..origin/submission-v1` and adapted-baseline mapping.
 
 Every screenshot must preserve the full command, mode label, relevant address/hash and result. Do not crop the distinction between fresh live output, saved-live replay and fixture regression. Final PNG files and SHA-256 values are stored outside Git in the handoff directory so generating them does not dirty or change the verified commit. The repository checklist records what each image must prove; the local `SCREENSHOT_MANIFEST.md` records the exact final files and hashes.
 
